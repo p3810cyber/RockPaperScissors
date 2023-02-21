@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+input[type="number"] {
+    width: 6em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
