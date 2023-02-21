@@ -1,23 +1,56 @@
 body {
-    font-family: sans-serif;
+    background-color: #F3BA2F;
+    font-family: Arial, sans-serif;
+    color: #1F1F1F;
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 1em;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem 0;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-top: 2em;
-    margin-bottom: 0.5em;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
 }
 
 input[type="number"] {
-    width: 6em;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
 }
 
 button {
-    font-size: 1em;
-    padding: 0.5em 1em;
+    background-color: #F3BA2F;
+    border: none;
+    border-radius: 0.5rem;
+    color: #1F1F1F;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B8971D;
+}
+
+select {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+option {
+    background-color: #F3BA2F;
+    color: #1F1F1F;
+}
+
+option:hover {
+    background-color: #B8971D;
 }
