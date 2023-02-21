@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RockPaperScissors BNB Challenge dApp</title>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body onload="init()">
+    <h1>RockPaperScissors_BNB_Challenge App</h1>
+    <h2>Create a New Game</h2>
+    <p>
+        Bet: <input type="number" id="bet" value="0" />
+        <button onclick="createGame()">Create Game</button>
+    </p>
+    <h2>Join an Existing Game</h2>
+    <p>
+        ID: <input type="number" id="id" value="0" />
+        Bet: <input type="number" id="bet" value="0" />
+        <button onclick="joinGame()">Join Game</button>
+    </p>
+    <h2>Play a Hand</h2>
+    <p>
+        ID: <input type="number" id="id" value="0" />
+        Hand:
+        <select id="hand">
+            <option value="1">Rock</option>
+            <option value="2">Paper</option>
+            <option value="3">Scissors</option>
+        </select>
+        <button onclick="playHand()">Play Hand</button>
+    </p>
+</body>
+
+</html>
